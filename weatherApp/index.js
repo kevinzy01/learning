@@ -11,6 +11,6 @@ request(url, function (err, res, body) {
   } else {
     let weather = JSON.parse(body);
     let temp = `It's ${weather.main.temp} degrees, there's an humidity of ${weather.main.humidity}% and a wind speed of ${weather.wind.speed} in ${weather.name}, ${weather.sys.country}`;
-    console.log(temp);
+    console.log(weather);
   }
 });
