@@ -1,4 +1,4 @@
-const todayDate = x => {
+const todayDate = () => {
   let weekdays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 
   let day = weekdays[new Date().getDay()]
@@ -6,4 +6,6 @@ const todayDate = x => {
   return "Today is: " + day;
 }
 
-module.exports = todayDate;
+// console.log(todayDate());
+
+export default todayDate

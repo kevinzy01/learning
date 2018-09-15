@@ -1,7 +1,7 @@
 // Changing "-" for "/"
 var bdays = ["08-09", "01-03", "04-14"];
 
-var bdays2 = bdays.map(function (date) {
+var bdays2 = bdays.map((date) => {
   return date.replace("-", "/");
 })
 
